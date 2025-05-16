@@ -1,16 +1,36 @@
-# notesapp
+A simple and efficient Notes App built with Flutter, using GetX for state management, RESTful API for Sign In / Sign Up functionality, and GoRouter for modern, declarative navigation.
 
-A new Flutter project.
+🚀 Features
+📒 Create, and delete notes
 
-## Getting Started
+🔐 User Authentication (Sign In / Sign Up) via RESTful API
 
-This project is a starting point for a Flutter application.
+⚡ State management with GetX
 
-A few resources to get you started if this is your first Flutter project:
+🌐 Routing with GoRouter
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+💡 Clean and modular architecture
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+📱 Responsive UI for mobile devices
+
+🛠️ Tech Stack
+Flutter – Frontend framework
+
+GetX – State management & dependency injection
+
+GoRouter – Declarative routing system
+
+REST API – Backend interaction for authentication & notes
+
+🔐 Authentication
+Implemented using a RESTful API for:
+
+User Sign Up
+
+User Sign In
+
+Token-based session management (JWT or similar)
+
+🧭 Navigation
+The app uses GoRouter for managing routes:
+/home – Home screen displaying notes
